@@ -15,4 +15,5 @@ public class Stack {
     public void displayStack() {
         linkedList.display();
     }
+    
 }
