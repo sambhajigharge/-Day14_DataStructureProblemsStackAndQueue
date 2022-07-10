@@ -2,12 +2,10 @@ package DataStructure.StackAndQueue;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to Stack and queue");
-        Stack stack = new Stack();
-        stack.push(70);
-        stack.push(30);
-        stack.push(56);
-        stack.pop();
-        stack.displayStack();
+        System.out.println("Welcome to Stack and Queue");
+        Queue queue = new Queue();
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
     }
 }
